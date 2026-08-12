@@ -38,9 +38,17 @@ function App() {
         </section>
 
         <section>
-          <h2>Skills</h2>
-          <p>HTML | CSS | JavaScript | React | Git | GitHub</p>
-        </section>
+  <h2>Skills</h2>
+
+  <div className="skills-list">
+    <span className="skill-badge">HTML</span>
+    <span className="skill-badge">CSS</span>
+    <span className="skill-badge">JavaScript</span>
+    <span className="skill-badge">React</span>
+    <span className="skill-badge">Git</span>
+    <span className="skill-badge">GitHub</span>
+  </div>
+</section>
 
         <section id="projects">
           <h2>Projects</h2>
